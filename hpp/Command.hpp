@@ -5,6 +5,7 @@
 
 namespace YuComs{
    struct Command{
+      Command();
       Command(std::string command, std::string description, std::vector<Option> options,
        void (*run)());
 
